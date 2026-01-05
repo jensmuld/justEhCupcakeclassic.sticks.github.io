@@ -222,14 +222,19 @@ background-position: 0 -70px;
     left: 286px;
 }
 
+.ds4 .face {
+    background: url(Dpad.png);
+    position: absolute;
+}
+
 .ds4 .face.up, .ds4 .face.down {
-    width: 36px;
+    width: 37px;
     height: 52px;
 }
 
 .ds4 .face.left, .ds4 .face.right {
     width: 52px;
-    height: 36px;
+    height: 40px;
 }
 
 .ds4 .face.up {
@@ -265,6 +270,7 @@ background-position: 0 -70px;
     margin-top: -300px;
 }
 
+
 /*END PS4 Controller Styling*/
 
 /*BEGIN PS4 White Controller Styling*/
@@ -273,5 +279,6 @@ background-position: 0 -70px;
     width: 26px;
     height: 43px;
 }
+
 
 /*END PS4 White Controller Styling*/
